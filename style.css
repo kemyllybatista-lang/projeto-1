@@ -38,7 +38,18 @@ h1{
     font-size: 24px;
 }
 footer{ 
-    background-color: blueviolet;
+    background-color: rgb(164, 107, 218);
     padding: 15px 25px;
-    color: rgb(76, 76, 236);
+    color: rgb(26, 26, 192);
+}
+.cartao-interno{
+    position: relative;
+    transition: tranform 0.8s;
+    transform-style: preserve-3d;
+}
+.cartao:hover .cartao-interno{
+    transform: rotateY(180deg);
+}
+.cartao-frente .cartao-verso{
+    
 }
